@@ -1,0 +1,66 @@
+.HomeHeader {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  background: rgb(56, 74, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 74, 235, 1) 35%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 0, 0, 1) 35%,
+    rgba(241, 246, 247, 1) 35%,
+    rgba(241, 246, 247, 1) 100%,
+    rgba(241, 246, 247, 1) 100%,
+    rgba(241, 246, 247, 1) 100%
+  );
+  .HeaderAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    width: 52%;
+    .HeadImg{
+        display: flex;
+        bottom: 0;
+        min-height: 80vh;
+        align-items: flex-end;
+        img{
+            height: 650px;
+        }
+    }
+    .HeadTxt{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h3{
+             font-size: 30px;
+             font-weight: 400;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        button{
+            width: 170px;
+            height: 50px;
+            font-weight: 500;
+            color: white;
+            border-radius: 26px;
+            background-color: #384aeb;
+            border: 1px solid gray;
+            transition: .3s;
+            &:hover{
+                border: 1px solid #384aeb;
+                background-color: white;
+                border: 1px solid #384aeb;
+                color: black;
+            }
+        }
+    }
+  }
+}

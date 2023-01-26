@@ -1,0 +1,37 @@
+.Lastest {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  .bestDiv {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    gap: 40px;
+    .bestTxt{
+        p{
+            font-weight: 400;
+        }
+        h2{
+            font-size: 36px;
+            font-weight: 600;
+        }
+    }
+    .bestProduct {
+      display: flex;
+      width: 70%;
+      gap: 30px;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: 500px;
+      }
+    }
+  }
+}

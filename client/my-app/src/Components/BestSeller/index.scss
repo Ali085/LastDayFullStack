@@ -1,0 +1,51 @@
+.bestSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 64vh;
+    
+    .bestDiv{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        align-items: flex-start;
+        gap: 40px;
+        .bestTxt{
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            p{
+                font-weight: 400;
+            }
+            h2{
+                font-size: 36px;
+                font-weight: 600;
+            }
+        }
+        .bestProduct{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            div{
+                text-align: center;
+                p{
+                    font-weight: 400;
+                    color: gray;
+                }
+                h4{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                h5{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
